@@ -1,0 +1,472 @@
+h1, #hello p, #hello h5, #upper-social {
+  color: white;
+  font-family: futura;
+}
+
+a, a:active, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*-----------------------------------------------
+------------------------------------------------
+                      header
+----------------------------------------------------
+ ------------------------------------------------*/
+
+
+.top-photo li {
+  display: inline-block;
+}
+header {
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+header>a {
+  color: white;
+  font-family: times;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* header a, header ul, header li {
+  display: inline-block;
+} */
+header ul {
+  float:right;
+}
+header li {
+  font-family: futura;
+  font-size: 6pt;
+  font-weight: lighter;
+  color: white;
+  padding-right: 5px;
+}
+#dot {
+  font-size: 3pt;
+  display: block;
+  text-align: center;
+  padding-right: .5rem;
+}
+
+
+
+
+
+h1 {
+  margin-top: 50%;
+  font-size: 36pt;
+}
+.top-photo .button {
+  font-family: futura;
+  color: white;
+  font-weight: lighter;
+  font-size: 3pt;
+}
+.view-projects-button {
+  text-align: center;
+  margin-top: 30%;
+}
+.view-projects-button li{
+  box-sizing: border-box;
+  border: solid white .5px;
+  padding: 6px 7px;
+  border-radius: 15%;
+  display: absolute;
+}
+
+
+
+
+
+
+.top-photo h1, .top-photo .button {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+.above-top-photo {
+  width: 100%;
+  display: grid;
+}
+.above-top-photo img {
+  width: 100%;
+}
+.top-photo {
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+/*---------------------------------------------------
+--------------------------------------------------------
+                      about-me
+--------------------------------------------------------
+------------------------------------------------------*/
+
+.about-me {
+  width: 100%;
+  display: grid;
+  background-color: #FEC2B7;
+}
+.about-me img {
+  width: 100%;
+  opacity: 0;
+}
+.about-me-sub {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+
+#hello a {
+  text-decoration: underline;
+}
+
+h5 {
+  font-size: 2pt;
+  font-variant: small-caps;
+  font-weight: light;
+  font-family: avenir;
+  margin-bottom: 5%;
+}
+
+#hello p {
+  margin-top: .5%;
+}
+.biggest-event {
+  margin-top: 5%;
+}
+
+
+
+.about-me {
+  font-size: 11pt;
+  color: white;
+}
+.social li {
+  display: inline-block;
+}
+
+#hello {
+  text-align: left;
+  margin-left: 11%;
+  margin-right: 13%;
+  margin-top: 7%;
+}
+#upper-social {
+  margin-left: 11%;
+  text-align: left;
+  z-index: 1;
+  font-size: 5pt;
+  position: absolute;
+  color: white;
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------
+--------------------------------------------------------
+                      projects
+---------------------------------------------------------
+-------------------------------------------------------*/
+
+
+.projects {
+  width: 100%;
+  display: grid;
+  background-color: #FFFFFF;
+}
+#projects-back {
+  width: 100%;
+  opacity: 0;
+}
+.projects-sub {
+  position: absolute;
+  width: 100%;
+}
+h4 {
+  font-family: futura;
+  font-size: 10pt;
+  margin-top: 13%;
+}
+.hundred {
+  text-align: center;
+}
+.hundred a {
+  font-family: futura;
+  font-size: 6pt;
+  color: #575C5F;
+}
+.mini-menu {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.mini-menu a:hover {
+  text-decoration: underline #575C5F;
+}
+.mini-menu li {
+}
+.project-cards a:before {
+  background-color: lightgrey;
+  opacity: 70%;
+}
+.hundred ul {
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+.hundred li {
+    display: inline-block;
+}
+
+
+
+
+
+/* .brand-cards:first-child {
+  width: 100%
+} */
+.project-cards {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.project-cards li {
+  display: inline-block;
+  width: 19.1499986%;
+  text-align: center;
+}
+.project-cards img {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+.more-projects {
+  text-align: center;
+}
+.more-projects a {
+  font-family: futura;
+  font-size: 7px;
+}
+
+/*-----------------------------------------------------
+-------------------------------------------------------
+                      experience
+-------------------------------------------------------
+------------------------------------------------------*/
+
+
+.experience {
+  width: 100%;
+  display: grid;
+  background-color: #DBECF3;
+}
+#work-exp-back {
+  width: 100%;
+  opacity: 0;
+}
+.experience-sub {
+  position: absolute;
+  width: 100%;
+}
+
+
+
+h2 {
+  color: #575C5F;
+  font-size: 5pt;
+  font-family: futura;
+  font-variant: small-caps;
+}
+/* .column1, .column2 {
+    float: left;
+    width: 25%;
+  }
+
+.experience-top:after {
+  clear: both;
+} */
+.experience-sub {
+  margin-top: 5%;
+}
+
+.experience-top ul{
+  display: inline-grid;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.experience-top ul:first-child{
+    margin-left: 11%;
+}
+.experience-top li {
+  border-bottom: 1px #D3E4EB solid;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+
+.column1 {
+  color: #575C5F;
+  font-size: 5pt;
+  font-family: futura;
+}
+.column2 {
+  color: black;
+  font-family: futura;
+  font-size: 5pt;
+}
+
+
+
+
+
+
+
+
+
+.experience-bottom {
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
+}
+
+.experience-bottom ul {
+  margin-left: 4%;
+  margin-top: 6%;
+  margin-right: 4%;
+}
+.experience-bottom ul:first-child, h2 {
+  margin-left: 11%;
+}
+h2 {
+  margin-top: 8%;
+}
+
+.experience-bottom li {
+  color: black;
+  font-family: futura;
+  font-size: 5pt;
+  text-align: left;
+  margin-top: 8px;
+}
+.experience-bottom li:first-child{
+  color: #575C5F;
+  font-family: avenir;
+  font-weight: light;
+  font-variant: small-caps;
+  font-size: 4pt;
+  margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------
+--------------------------------------------------------
+                      bottom-footer
+-----------------------------------------------------
+-----------------------------------------------------*/
+
+.bottom-footer {
+  width: 100%;
+  display: grid;
+  background-color: black;
+}
+#footer-back {
+  width: 100%;
+  opacity: 0;
+}
+
+.bottom-footer-sub {
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* .project-cards:first-child {
+  width: 100%
+} */
+.brand-cards {
+  text-align: center;
+}
+.brand-cards li {
+  display: inline-block;
+  width: 19.149998%;
+  text-align: center;
+}
+.brand-cards img {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+
+
+
+
+
+.work-together-email, footer {
+  color: white;
+  font-family: futura;
+  text-align: center;
+  font-size: 10pt;
+  margin-top: 5%;
+}
+footer ul {
+  margin-top: 4%;
+  display: inline-flex;
+  font-size: 4pt;
+}
+footer li:nth-child(2), footer li:nth-child(4), footer li:nth-child(6) {
+  padding: 3px;
+}
+.work-together-email img {
+  width: 17%;
+  margin-top: 3%;
+}
+
+h3 {
+  margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------
+                      end
+-------------------------------------------------------*/
+/* body, div, header, a, ul, li, h1, h2, h3, h4, h5, h6, p, footer {
+  border: solid black .1px;
+} */
+
+
+
+
+/*-webkit-user-select: none;max-width: 100%;background-position: 0px 0px, 18px 18px;background-size: 36px 36px;background-image:linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%),linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);*/
